@@ -54,11 +54,32 @@ address {
 	font-style: normal;
 	line-height: 1.5;
 }
-	address strong, address span {
+	address span {
 		display: block;
 	}
+
+		address span:first-child {
+			font-weight: bold;
+		}
 
 #map {
 	width:100%; 
 	height:175px;
+}
+
+.vcard {padding: 0; border: 0;}
+
+table {
+	border: none;
+	border-bottom: 1px solid #ed1c24;
+}
+
+th {
+	text-align: left;
+	background: #ed1c24;
+	color: #FFFFFF !important;
+}
+
+tr:nth-of-type(even) {
+	background: #fac6c8 !important;
 }

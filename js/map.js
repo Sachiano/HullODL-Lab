@@ -5,7 +5,7 @@ window.onload = function() {
     zoom: 16,
     center: myLatlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    disableDefaultUI: true,
+    disableDefaultUI: true
   }
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
@@ -15,6 +15,7 @@ window.onload = function() {
       position: myLatlng,
       map: map,
       title:"Hull School of Art and Design",
-      icon: markerIcon
+      icon: markerIcon,
+      url: "http://"
   });
 }
