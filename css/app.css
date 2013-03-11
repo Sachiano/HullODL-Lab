@@ -8,6 +8,35 @@ h1, h2, h3, h4, h5, h6{
 	color: #ed1c24;
 }
 
+header h1 {
+	letter-spacing: -3px;
+	font-size: 3em;
+}
+	header h1 span {
+		font-weight: 400;
+		color: #000;
+	}
+
+	header nav {
+		line-height: 3.5em;
+		display: inline-block;
+		vertical-align: middle;
+		text-align: right;
+
+	}	
+		header nav a {
+			margin: 0 10px 0 10px;
+			display: inline-block;
+			vertical-align: text-top;
+		}
+	@media only screen and (max-width: 720px) {
+		header nav {
+			display: block;
+			margin-top: -50px;
+			text-align: left;
+		}
+	}
+
 #hero-box {
 	background: #ccc url('../img/hero-hull-qg.jpg') no-repeat;
 	-o-background-size: cover;
@@ -72,6 +101,7 @@ address {
 table {
 	border: none;
 	border-bottom: 1px solid #ed1c24;
+	font-family: "Georgia", serif !important;
 }
 
 th {
@@ -83,3 +113,45 @@ th {
 tr:nth-of-type(even) {
 	background: #fac6c8 !important;
 }
+
+td a {
+	color: #222;
+	border-bottom: 1px dotted #222;
+}
+	td a:hover {
+		border-bottom-color: #ed1c24; 
+	}
+
+@media only screen and (min-width: 720px) {
+	section#device-library article {
+		padding: 0 18px;
+	}
+}
+
+ul#needed-devices-list, ul#required-features {
+	list-style-type: none;
+}
+
+#required-features span {
+	font-family: "Georgia", serif !important;
+	font-style: italic;
+	font-size: 0.75em;
+	vertical-align: text-bottom;
+}
+
+footer {
+	font-size:0.85em;
+	margin: 20px 0 100px 0;
+	height: 100px;
+	border-top: 1px solid #ccc;
+	padding: 15px 0;
+}
+
+span.fancy, span.fancy a {
+	font-family: "Georgia", serif !important;
+	font-style: italic;
+	color: #222;
+}
+	span.fancy a {
+		border-bottom: 1px dotted;
+	}

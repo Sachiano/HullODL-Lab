@@ -224,7 +224,13 @@
 	<footer>
 
 		<section class="row">
-			&copy; <?=date("Y")?>
+			
+			<div class="large-6 columns">
+				<span class="fancy">A community project envisioned by <a href="http://www.geniusbydesign.co.uk">Genius by Design</a></span>
+				<p>&copy; Copyright <?=date('Y')?> Genius by Design, Ltd.</p>
+			</div>
+
+		</section>
 
 	</footer>
 

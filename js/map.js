@@ -1,6 +1,6 @@
 window.onload = function() {
 
- var myLatlng = new google.maps.LatLng(53.746351,-0.331993);
+ var myLatlng = new google.maps.LatLng(53.745851,-0.332193);
   var mapOptions = {
     zoom: 16,
     center: myLatlng,
@@ -9,13 +9,12 @@ window.onload = function() {
   }
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-  var markerIcon = 'img/map-icon.png';
+  var markerIcon = 'img/map-icon.gif';
 
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title:"Hull School of Art and Design",
-      icon: markerIcon,
-      url: "http://"
+      title:"HullODL is at: the Hull School of Art and Design",
+      icon: markerIcon
   });
 }
