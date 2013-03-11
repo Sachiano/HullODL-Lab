@@ -3,8 +3,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-	<meta charset="utf-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Hull Open Device Lab allows developers and designers to test their work on an ever-growing range of devices." />
+  
   <title>HullODL &mdash; Hull's first Open Device Lab</title>
 
   <link rel="stylesheet" href="css/normalize.css" />
