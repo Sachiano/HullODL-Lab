@@ -132,9 +132,9 @@
 						<td>Sal Bentley</td>
 					</tr>
 					<tr>
-						<td>BlackBerry ???</td>
-						<td>BB OS ?.?</td>
-						<td>?x?</td>
+						<td>BlackBerry Bold 9700</td>
+						<td>BB OS 5.0</td>
+						<td>480x360</td>
 						<td><a href="https://twitter.com/palaceofwisdom"> Callum MacInnes</a>	</td>
 					</tr>			
 					<tr>
@@ -143,6 +143,12 @@
 						<td>480x800</td>
 						<td><a href="https://twitter.com/AxelBCreative"> Axel Billingsley</a></td>
 					</tr>			
+					<tr>
+						<td>Huawei Sonic</td>
+						<td>Android 2.3.3</td>
+						<td>320x480</td>
+						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
+					</tr>								
 					<tr>
 						<td>Samsung Galaxy 3</td>
 						<td>Android 2.2</td>
