@@ -139,7 +139,7 @@
 					</tr>			
 					<tr>
 						<td>HTC Desire Z</td>
-						<td>Android 2.1</td>
+						<td>Android 2.3.3</td>
 						<td>480x800</td>
 						<td><a href="https://twitter.com/AxelBCreative"> Axel Billingsley</a></td>
 					</tr>			
