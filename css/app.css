@@ -67,7 +67,12 @@ header h1 {
 .button {
 	font-weight: 100;
 	padding: 10px 30px;
+	background:url('../img/grain.png');
+	box-shadow: inset 1px 1px 1px #600b0e, inset -1px -1px 1px #600b0e;
 }
+	.button:hover {
+		box-shadow: inset 1px 1px 10px #600b0e;
+	}
 
 a[title="@HullODL"] {
 	font-weight: 900;
@@ -106,7 +111,7 @@ table {
 
 th {
 	text-align: left;
-	background: #ed1c24;
+	background: #ed1c24 url('../img/grain.png');
 	color: #FFFFFF !important;
 }
 
