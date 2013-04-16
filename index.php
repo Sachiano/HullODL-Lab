@@ -135,7 +135,7 @@
 						<td>BlackBerry Bold 9700</td>
 						<td>BB OS 5.0</td>
 						<td>480x360</td>
-						<td><a href="https://twitter.com/palaceofwisdom"> Callum MacInnes</a>	</td>
+						<td><a href="https://twitter.com/palaceofwisdom"> Callum MacInnes</a></td>
 					</tr>			
 					<tr>
 						<td>HTC Desire Z</td>
@@ -149,6 +149,12 @@
 						<td>320x480</td>
 						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
 					</tr>								
+					<tr>
+						<td>Raspberry Pi<sup>*</sup></td>
+						<td>Ubuntu 12.10</td>
+						<td>N/A</td>
+						<td><a href="https://twitter.com/palaceofwisdom"> Callum MacInnes</a></td>
+					</tr>					
 					<tr>
 						<td>Samsung Galaxy 3</td>
 						<td>Android 2.2</td>
@@ -169,6 +175,7 @@
 					</tr>
 				</tbody>
 			</table>
+			<sup>* The Raspberry Pi has been loaded with the <a href="https://live.gnome.org/Orca" target="_blank">Orca</a> screenreading software</sup>
 		</article>
 	</section>
 
@@ -212,7 +219,6 @@
 					<ul class="large-6 columns" id="needed-devices-list">
 						<li>Apple iPad 2 or 3</li>
 						<li>Apple iPhone 4 or 4S</li>
-						<li>BlackBerry 5.x phone</li>
 						<li>BlackBerry 7.x phone</li>
 						<li>Samsung Galaxy S2 or S3</li>
 						<li>Asus Nexus 7</li>
