@@ -74,6 +74,19 @@ header h1 {
 		box-shadow: inset 1px 1px 10px #600b0e;
 	}
 
+a.testing-area {
+	font-size: 80%;
+	display: inline-block;
+	color: white;
+	position: relative;
+	top: -1px;
+	border-bottom: 1px dotted white;
+	margin: 0 0 0 10px;
+}
+	a.testing-area:hover {
+		border: none;
+	}
+
 a[title="@HullODL"] {
 	font-weight: 900;
 }
