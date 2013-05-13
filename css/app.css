@@ -104,7 +104,7 @@ a.testing-area {
 	position: relative;
 	top: -1px;
 	border-bottom: 1px dotted white;
-	margin: 0 0 0 10px;
+	margin: 0 0 15px 10px;
 }
 	a.testing-area:hover {
 		border: none;

@@ -52,7 +52,7 @@
 					<span>Hull Open Device Lab</span> allows developers and designers to test their work on an ever-growing range of devices.
 				</h2>
 				<a href="#visit" class="button">Visit the lab</a>
-				<a href="http://lab.hullodl.co.uk/control" class="testing-area">Looking for the testing area?</a>
+				<a href="http://lab.hullodl.co.uk/control" class="testing-area">Looking for the testing area? &rarr;</a>
 			</div>
 			<div class="large-4 columns">
 				<img src="img/devices.png" alt="Devices" />
