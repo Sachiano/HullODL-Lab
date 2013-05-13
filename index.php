@@ -36,10 +36,10 @@
 			<h1><a href=""><span>Hull</span>ODL</a></h1>
 		</div>
 		
-		<nav class="large-8 small-12 columns">
+		<nav class="large-8 small-12 columns" id="main">
 			<a href="#about">About</a> 
+			<a href="#device-library">Our Devices</a>			
 			<a href="#visit">Visit</a> 
-			<a href="#device-library">Our Devices</a>
 			<a href="#how-to-help">Help Out</a>
 		</nav>
 
@@ -82,29 +82,6 @@
 				devices we need</a> or find another way <a href="#how-to-help" alt="How to help" title="How to help out at Hull Open Device Lab">
 				you can help out</a>.
 			</p>
-	</section>
-
-	<section class="row" id="visit">
-		
-		<article class="large-5 columns">
-			<h3>Visit the Lab</h3>
-			<p>HullODL is currently located at:</p>
-			<address class="vcard">
-				<span class"building-name">Hull School of Art and Design</span>
-				<span class="street-address">Wilberforce Drive</span>
-				<span class="locality">Hull</span>
-				<span class="postal-code">HU1 3DG</span>
-			</address>
-			<p>
-				Remember to give us a bell <a href="http://twitter.com/HullODL" alt="@HullODL" title="@HullODL" target="_blank">@HullODL</a>!
-			</p>
-		</article>
-
-		<article class="large-5 columns">
-			<h3>Finding the Lab</h3>
-			<div id="map" />
-		</article>
-
 	</section>
 
 	<section class="row" id="device-library">
@@ -179,6 +156,29 @@
 			<sup>* The Raspberry Pi has been loaded with the <a href="https://live.gnome.org/Orca" target="_blank">Orca</a> screenreading software</sup>
 		</article>
 	</section>
+
+	<section class="row" id="visit">
+		
+		<article class="large-5 columns">
+			<h3>Visit the Lab</h3>
+			<p>HullODL is currently located at:</p>
+			<address class="vcard">
+				<span class"building-name">Hull School of Art and Design</span>
+				<span class="street-address">Wilberforce Drive</span>
+				<span class="locality">Hull</span>
+				<span class="postal-code">HU1 3DG</span>
+			</address>
+			<p>
+				Remember to give us a bell <a href="http://twitter.com/HullODL" alt="@HullODL" title="@HullODL" target="_blank">@HullODL</a>!
+			</p>
+		</article>
+
+		<article class="large-5 columns">
+			<h3>Finding the Lab</h3>
+			<div id="map" />
+		</article>
+
+	</section>	
 
 	<section class="row" id="how-to-help">
 		<article class="large-12 columns">
