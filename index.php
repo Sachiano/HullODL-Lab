@@ -146,6 +146,12 @@
 						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
 					</tr>
 					<tr>
+						<td>Sony Ericsson T303</td>
+						<td>Java OS</td>
+						<td>128x160</td>
+						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
+					</tr>					
+					<tr>
 						<td>Sony Ericsson Xperia X10</td>
 						<td>Android 2.2</td>
 						<td>480x854</td>
