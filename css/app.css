@@ -29,6 +29,9 @@ header h1 {
 			display: inline-block;
 			vertical-align: text-top;
 		}
+			header nav a:hover {
+				color: #8d2020;
+			}
 	@media only screen and (max-width: 720px) {
 		header nav {
 			display: block;
@@ -36,6 +39,20 @@ header h1 {
 			text-align: left;
 		}
 	}
+	@media only screen and (max-width: 340px) {
+
+		header nav {
+			margin: -15px 0 0 0;
+			background: #ed1c24 url('../img/grain.png');
+		}
+
+		header nav a {
+			display: block;
+			background: #ed1c24 url('../img/grain.png');
+			color: #fff;
+			text-align: center;
+		}
+	}	
 
 #hero-box {
 	background: #ccc url('../img/hero-hull-qg.jpg') no-repeat;
