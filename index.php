@@ -169,7 +169,7 @@
 			<h3>Visit the Lab</h3>
 			<p>HullODL is currently located at:</p>
 			<address class="vcard">
-				<span class"building-name">Hull School of Art and Design</span>
+				<span class="building-name">Hull School of Art and Design</span>
 				<span class="street-address">Wilberforce Drive</span>
 				<span class="locality">Hull</span>
 				<span class="postal-code">HU1 3DG</span>
