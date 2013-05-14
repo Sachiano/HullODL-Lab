@@ -49,10 +49,10 @@
 		<div class="row">
 			<div class="large-6 small-12 columns">
 				<h2>
-					<span>Hull Open Device Lab</span> allows developers and designers to test their work on an ever-growing range of devices.
+					<acronym title="Open Device Lab">Hull<span>ODL</span></acronym> allows developers and designers to test their work on an ever-growing range of devices.
 				</h2>
 				<a href="#visit" class="button">Visit the lab</a>
-				<a href="http://lab.hullodl.co.uk/control" class="testing-area">Looking for the testing area? &rarr;</a>
+				<a href="http://lab.hullodl.co.uk/control" class="testing-area">Looking for the testing area? Click here.</a>
 			</div>
 			<div class="large-4 columns">
 				<img src="img/devices.png" alt="Devices" />
@@ -60,9 +60,8 @@
 		</div>
 	</section>
 
-	<section class="row" id="about" data-magellan-destination="about">
-		<article class="large-5 columns">
-			<h3>About HullODL</h3>
+<section class="row" id="about" data-magellan-destination="about">
+		<article class="large-12 columns">
 			<p>
 				More and more people are using their mobile devices to browse the web,
 				and we need to make sure our websites are ready.
@@ -72,96 +71,112 @@
 				devices, without the cost.
 			</p>
 		</article>
-		<article class="large-5 columns no-h3">
+
+		<article class="large-12 columns" id="use-info">
+			<h3>Fancy using the ODL?</h3>
+
 			<p>
-				If you want to come down and use the lab, give us a tweet a few days beforehand
-				<a href="http://twitter.com/HullODL" alt="@HullODL" title="@HullODL" target="_blank">@HullODL</a>.
+				If you would like to come down and use the lab, just give us a tweet a few days beforehand
+				<a href="http://twitter.com/HullODL" alt="@HullODL" title="@HullODL" target="_blank">@HullODL</a> and we'll be happy to get everything set up for you!
 			</p>
 			<p>
-				Want to help out? Great! Check out the <a href="#devices-we-need" alt="Devices we need" title="Devices we need at Hull Open Device Lab">
+				Want to help out? Fantastic! Check out what <a href="#devices-we-need" alt="Devices we need" title="Devices we need at Hull Open Device Lab">
 				devices we need</a> or find another way <a href="#how-to-help" alt="How to help" title="How to help out at Hull Open Device Lab">
-				you can help out</a>.
+				you can help us out</a>.
 			</p>
+		</article>
 	</section>
 
+<div class="grey">
 	<section class="row" id="device-library">
 		
 		<article class="large-12 columns">
 			<h3>Device Library</h3>
-			<p>Devices are expensive, so we mainly rely on kind donations from individuals and like-minded design companies.<p>
+			<p>Devices can be very expensive, so we mainly rely on kind donations from individuals and like-minded design companies.<p>
 			<p>Here's what we've got so far:</p>
 		</article>
 
 		<article>
-			<table class="large-12 small-12 columns">
-				<thead>
-					<tr>
-						<th>Device</th>
-						<th>OS</th>
-						<th>Screen Size</th>
-						<th>Contributor</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Apple iPhone 3G</td>
-						<td>iOS 4.2.1</td>
-						<td>320x480</td>
-						<td>Sal Bentley</td>
-					</tr>
-					<tr>
-						<td>BlackBerry Bold 9700</td>
-						<td>BB OS 5.0</td>
-						<td>480x360</td>
-						<td><a href="https://twitter.com/palaceofwisdom"> Callum MacInnes</a></td>
-					</tr>			
-					<tr>
-						<td>HTC Desire Z</td>
-						<td>Android 2.3.3</td>
-						<td>480x800</td>
-						<td><a href="https://twitter.com/AxelBCreative"> Axel Billingsley</a></td>
-					</tr>			
-					<tr>
-						<td>Huawei Sonic</td>
-						<td>Android 2.3.3</td>
-						<td>320x480</td>
-						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
-					</tr>								
-					<tr>
-						<td>Raspberry Pi<sup>*</sup></td>
-						<td>Ubuntu 12.10</td>
-						<td>N/A</td>
-						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
-					</tr>					
-					<tr>
-						<td>Samsung Galaxy 3</td>
-						<td>Android 2.2</td>
-						<td>240x400</td>
-						<td><a href="https://twitter.com/DMColby"> Daryl Colby</a></td>
-					</tr>
-					<tr>
-						<td>Sony Ericsson K770i</td>
-						<td>Java OS</td>
-						<td>240x320</td>
-						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
-					</tr>
-					<tr>
-						<td>Sony Ericsson T303</td>
-						<td>Java OS</td>
-						<td>128x160</td>
-						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
-					</tr>					
-					<tr>
-						<td>Sony Ericsson Xperia X10</td>
-						<td>Android 2.2</td>
-						<td>480x854</td>
-						<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
-					</tr>
-				</tbody>
-			</table>
+			<table>
+					<thead>
+						<tr>
+							<th class="tbl-device">Device</th>
+							<th class="tbl-os">OS</th>
+							<th class="tbl-type">Type</th>
+							<th class="tbl-screen">Screen Size</th>
+							<th class="tbl-contributor">Contributor</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Apple iPhone 3G</td>
+							<td>iOS 4.2.1</td>
+							<td>Smartphone</td>
+							<td>320x480</td>
+							<td>Sal Bentley</td>
+						</tr>
+						<tr>
+							<td>BlackBerry Bold 9700</td>
+							<td>BB OS 5.0</td>
+							<td>Smartphone</td>
+							<td>480x360</td>
+							<td><a href="https://twitter.com/palaceofwisdom"> Callum MacInnes</a></td>
+						</tr>			
+						<tr>
+							<td>HTC Desire Z</td>
+							<td>Android 2.3.3</td>
+							<td>Smartphone</td>
+							<td>480x800</td>
+							<td><a href="https://twitter.com/AxelBCreative"> Axel Billingsley</a></td>
+						</tr>			
+						<tr>
+							<td>Huawei Sonic</td>
+							<td>Android 2.3.3</td>
+							<td>Smartphone</td>
+							<td>320x480</td>
+							<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
+						</tr>								
+						<tr>
+							<td>Raspberry Pi<sup>*</sup></td>
+							<td>Ubuntu 12.10</td>
+							<td>PC</td>
+							<td>N/A</td>
+							<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
+						</tr>					
+						<tr>
+							<td>Samsung Galaxy 3</td>
+							<td>Android 2.2</td>
+							<td>Smartphone</td>
+							<td>240x400</td>
+							<td><a href="https://twitter.com/DMColby"> Daryl Colby</a></td>
+						</tr>
+						<tr>
+							<td>Sony Ericsson K770i</td>
+							<td>Java OS</td>
+							<td>Feature phone</td>
+							<td>240x320</td>
+							<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
+						</tr>
+						<tr>
+							<td>Sony Ericsson T303</td>
+							<td>Java OS</td>
+							<td>Feature phone</td>
+							<td>128x160</td>
+							<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
+						</tr>					
+						<tr>
+							<td>Sony Ericsson Xperia X10</td>
+							<td>Android 2.2</td>
+							<td>Smartphone</td>
+							<td>480x854</td>
+							<td><a href="https://plus.google.com/107079528579619073276"> Sacha Corazzi</a></td>
+						</tr>
+					</tbody>
+				</table>
 			<sup>* The Raspberry Pi has been loaded with the <a href="https://live.gnome.org/Orca" target="_blank">Orca</a> screenreading software</sup>
 		</article>
 	</section>
+</div>
 
 	<section class="row" id="visit">
 		
@@ -186,6 +201,7 @@
 
 	</section>	
 
+<!--COMING SOON <div class="grey">
 	<section class="row" id="how-to-help">
 		<article class="large-12 columns">
 			<h3>How to Help</h3>
@@ -202,10 +218,10 @@
 				<a href="https://twitter.com/intent/tweet?button_hashtag=#HullODL&text=Hull%20Open%20Device%20Lab%20allows%20developers%20and%20designers%20to%20test%20their%20work%20on%20an%20ever-growing%20range%20of%20devices%20http://hullodl.co.uk" class="twitter-hashtag-button" data-lang="en" data-related="jasoncosta" data-size="large">Tweet #HullODL</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-				<!-- Place this tag where you want the +1 button to render. -->
+				
 				<div class="g-plusone" data-annotation="inline" data-width="300"></div>
 
-				<!-- Place this tag after the last +1 button tag. -->
+			
 				<script type="text/javascript">
 				  (function() {
 				    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -241,6 +257,7 @@
 				</section>
 		</article>
 	</section>
+</div>-->
 
 	<footer>
 

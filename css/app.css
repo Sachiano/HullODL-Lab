@@ -1,7 +1,7 @@
 /* app.css */
 
 * {
-	font-family: "open-sans", Helvetica, Arial, sans-serif !important;
+	font-family: "open-sans", "Open Sans", Helvetica, Arial, sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -25,12 +25,15 @@ header h1 {
 
 	}	
 		header nav a {
-			margin: 0 10px 0 10px;
+
 			display: inline-block;
 			vertical-align: text-top;
+			padding: 0 1.75em;
 		}
 			header nav a:hover {
 				color: #8d2020;
+				background: #fae3e4;
+
 			}
 	@media only screen and (max-width: 720px) {
 		header nav {
@@ -39,7 +42,7 @@ header h1 {
 			text-align: left;
 		}
 	}
-	@media only screen and (max-width: 350px) {
+	@media only screen and (max-width: 501px) {
 
 		header nav {
 			margin: -15px 0 0 0;
@@ -52,6 +55,11 @@ header h1 {
 			color: #fff;
 			text-align: center;
 			line-height: 2.5;
+		}
+
+		header nav a:hover {
+			background: inherit;
+			color: #402222;
 		}
 	}	
 
@@ -71,6 +79,12 @@ header h1 {
 		font-size: 2em;
 		text-shadow: 1px 1px 2px #222;
 	}
+
+		#hero-box acronym {
+			color: white;
+			text-transform: none;
+		}
+
 	@media only screen and (max-width: 350px) {
 		#hero-box h2 {
 			font-size: 1.5em;
@@ -90,11 +104,10 @@ header h1 {
 .button {
 	font-weight: 100;
 	padding: 10px 30px;
-	background:url('../img/grain.png');
-	box-shadow: inset 1px 1px 1px #600b0e, inset -1px -1px 1px #600b0e;
+	background: #ed1c24;
 }
 	.button:hover {
-		box-shadow: inset 1px 1px 10px #600b0e;
+		background: #8d2020;
 	}
 
 a.testing-area {
@@ -103,7 +116,6 @@ a.testing-area {
 	color: white;
 	position: relative;
 	top: -1px;
-	border-bottom: 1px dotted white;
 	margin: 0 0 15px 10px;
 }
 	a.testing-area:hover {
@@ -140,24 +152,38 @@ address {
 .vcard {padding: 0; border: 0;}
 
 table {
-	border: none;
-	border-bottom: 1px solid #ed1c24;
-	font-family: "Georgia", serif !important;
+	border: 1px solid #ccc!important;
+	font-size: 0.9em;
+	width: 100%;
 }
 
 th {
+	background: #fff;
+	border-bottom: 1px solid #d0d0d0;
+	padding: 10px!important;
+	border-right: 1px solid #f0f0f0;
 	text-align: left;
-	background: #ed1c24 url('../img/grain.png');
-	color: #FFFFFF !important;
 }
 
-tr:nth-of-type(even) {
-	background: #fac6c8 !important;
+tr { 
+	background: #fff!important;
 }
+
+tr:nth-of-type(odd) {
+	background: #fafafa !important;
+}
+
+td {
+	border-right: 1px solid #f0f0f0;
+	padding: 10px!important;
+	font-size: 0.8em!important;
+}
+
+td:last-of-type, th:last-of-type { border-right: 1px solid #d0d0d0;}
 
 td a {
 	color: #222;
-	border-bottom: 1px dotted #222;
+	border-bottom: 1px dotted #ddd;
 }
 	td a:hover {
 		border-bottom-color: #ed1c24; 
@@ -184,7 +210,6 @@ footer {
 	font-size:0.85em;
 	margin: 20px 0 100px 0;
 	height: 100px;
-	border-top: 1px solid #ccc;
 	padding: 15px 0;
 }
 
@@ -196,3 +221,52 @@ span.fancy, span.fancy a {
 	span.fancy a {
 		border-bottom: 1px dotted;
 	}
+
+	/* Sections */
+
+section#about {
+	padding: 30px 0;
+}
+	section#about article {
+		text-align: center;
+	}
+		section#about article p {
+			font-size: 1.4em;
+			font-weight: 100;
+		}
+
+	section#about article#use-info {
+		border: 0;
+		border-top: 2px solid #e5e5e5;
+		margin: 20px 0 0;
+		padding: 10px 0 0;
+		text-align: center;
+	}
+		section#about article h3 {
+			background: #fff;
+			color: #000;
+			display: inline-block;
+			font-size: 1.4em;
+			padding: 0 10px;
+			position: relative;
+			top: -33px;
+		}
+
+		section#about article#use-info p {
+			font-size: 1em;
+			font-weight: 400;
+		}
+
+div.grey {
+	background: #f3f3f3;
+	padding: 30px 0;
+	margin: 0 0 40px 0;
+}
+
+h3 {font-size:1.4em;}
+
+.tbl-device { width: 35%; }
+.tbl-os { width: 12%; }
+.tbl-type { width: 12%; }
+.tbl-screen { width: 12%; }
+.tble-contributor { width: auto; }
