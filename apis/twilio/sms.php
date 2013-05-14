@@ -2,6 +2,6 @@
 
 ob_start(); 
 print_r($_POST); 
-$stringData = ob_get_flush();
+$stringData = $_POST['Body'];
 
 mail("sacha.corazzi@gmail.com","Text",$stringData);
