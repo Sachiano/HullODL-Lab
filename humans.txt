@@ -1,8 +1,35 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+//==========================================================================================
+// 		HullODL was founded by Sacha Corazzi in 2013 and is supported by Genius by Design,
+// 		a design and development agency in Kingston upon Hull, UK.
+//
+// 		http://geniusbydesign.co.uk
+//==========================================================================================
 
+
+/* TEAM */
+
+	Sacha Corazzi
+	http://imsacha.co.uk
+	@SachaCorazzi
+	Hull, UK
+
+	Kieran Marshall
+	http://kieranmarshall.co.uk
+	@KayrunM
+	Hull, UK
+
+
+/* DONATIONS */
+(alphabetical)
+ 	
+ 	Axel Billingsley
+ 	Daryl Colby
+ 	Callum MacInnes
+                      
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+                            
+	Last update: 2013/05/16                      
+	Standards: HTML5, CSS3                        
+	Components: Foundation
+	Software: SublimeText ♥
+
