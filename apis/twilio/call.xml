@@ -1,13 +1,12 @@
 <Response>
 <Say>
-Welcome to Hull O D L. If you would like to book a time slot, 
-please send a text to this number with the date as day and month in a four digit format, for example, 
-zero six zero nine for the sixth of September. Thank you.
-</Say>
+Welcome to Hull Open Device Lab.
+<Pause length="3"/>
+If you would like to book a time slot, 
+please send a text to this number with the date in a four digit format, 
 <Pause length="1"/>
-<Say voice="woman">
-Welcome to Hull O D L. If you would like to book a time slot, 
-please send a text to this number with the date as day and month in a four digit format, for example, 
+for example,
+<Pause length="1"/>
 zero six zero nine for the sixth of September. Thank you.
 </Say>
 </Response>
