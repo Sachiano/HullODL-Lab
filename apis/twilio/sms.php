@@ -13,7 +13,7 @@ if (is_numeric($date) && (strlen($date) == 4))
 	$day = $date[0];
 	$mon = $date[1];
 	
-	$full_date = date('l \t\h\e jS \o\f M, Y', mktime(0, 0, 0, $date[1], $date[0], 2013));
+	$full_date = date('l, jS \o\f F, Y', mktime(0, 0, 0, $date[1], $date[0], 2013));
 
 
 	$reply = "Hello from HullODL! Your booking is confirmed for " . $full_date . " from 12pm onwards. Thanks!";
