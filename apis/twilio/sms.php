@@ -13,7 +13,7 @@ if (is_numeric($date) && (strlen($date) == 4))
 	$day = $date[0];
 	$mon = $date[1];
 	
-	$full_date = date('l \t\h\e jS \o\f M, Y', mktime(0, 0, 0, $date[0], $date[1], 2013));
+	$full_date = date('l \t\h\e jS \o\f M, Y', mktime(0, 0, 0, $date[1], $date[0], 2013));
 
 
 	$reply = "Hello from HullODL! Your booking is confirmed for " . $full_date . " from 12pm onwards. Thanks!";
@@ -23,7 +23,7 @@ if (is_numeric($date) && (strlen($date) == 4))
 
 else
 {
-	$reply = "Hey there! If you would like to book a slot at HullODL, text the day and month as a 4 digit number. For example, 0506 would be the 5th of July!";
+	$reply = "Hey there! If you would like to book a slot at HullODL, text the day and month as a 4 digit number. For example, 0506 would be the 5th of June!";
 }
 
 require('Services/Twilio.php');
