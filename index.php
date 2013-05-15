@@ -194,13 +194,8 @@
 			</p>
 		</article>
 
-		<article class="large-5 columns">
-			<h3>Finding the Lab</h3>
-			<div id="map" />
-		</article>
-
 	</section>	
-
+<div id="map" />
 <!--COMING SOON <div class="grey">
 	<section class="row" id="how-to-help">
 		<article class="large-12 columns">

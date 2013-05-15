@@ -2,10 +2,11 @@ window.onload = function() {
 
  var myLatlng = new google.maps.LatLng(53.745851,-0.332193);
   var mapOptions = {
-    zoom: 16,
+    zoom: 17,
     center: myLatlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    disableDefaultUI: true
+    disableDefaultUI: true,
+    scrollwheel: false
   }
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
