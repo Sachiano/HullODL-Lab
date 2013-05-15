@@ -189,8 +189,17 @@
 				<span class="locality">Hull</span>
 				<span class="postal-code">HU1 3DG</span>
 			</address>
+		</article>
+
+		<article class="large-5 columns">
+			<h3>Contact Us</h3>
 			<p>
-				Remember to give us a bell <a href="http://twitter.com/HullODL" alt="@HullODL" title="@HullODL" target="_blank">@HullODL</a>!
+				To book a slot, you can tweet us <a href="http://twitter.com/HullODL" alt="@HullODL" title="@HullODL" target="_blank">@HullODL</a>,
+				or text <a href="tel:01482900499">01482 900 499</a>!
+			</p>
+			<p>
+				You can also email <a href="mailto:enquiries@hullodl.co.uk">enquiries@hullodl.co.uk</a>, or if you'd rather speak to a human, 
+				don't call <br /> <a href="tel:01482900499">01482 900 499</a>.
 			</p>
 		</article>
 
