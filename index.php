@@ -37,10 +37,9 @@
 		</div>
 		
 		<nav class="large-8 small-12 columns" id="main">
-			<a href="#about">About</a> 
-			<a href="#device-library">Our Devices</a>			
-			<a href="#visit">Visit</a> 
-			<a href="#how-to-help">Help Out</a>
+			<a href="#about" accesskey="1">About</a> 
+			<a href="#device-library" accesskey="2">Our Devices</a>			
+			<a href="#visit" accesskey="3">Visit</a>
 		</nav>
 
 	</header>
@@ -78,11 +77,6 @@
 			<p>
 				If you would like to come down and use the lab, just give us a tweet a few days beforehand
 				<a href="http://twitter.com/HullODL" alt="@HullODL" title="@HullODL" target="_blank">@HullODL</a> and we'll be happy to get everything set up for you!
-			</p>
-			<p>
-				Want to help out? Fantastic! Check out what <a href="#devices-we-need" alt="Devices we need" title="Devices we need at Hull Open Device Lab">
-				devices we need</a> or find another way <a href="#how-to-help" alt="How to help" title="How to help out at Hull Open Device Lab">
-				you can help us out</a>.
 			</p>
 		</article>
 	</section>
