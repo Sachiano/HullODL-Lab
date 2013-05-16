@@ -90,7 +90,6 @@
 			<p>Here's what we've got so far:</p>
 		</article>
 
-		<article>
 			<table>
 					<thead>
 						<tr>
@@ -168,7 +167,6 @@
 					</tbody>
 				</table>
 			<sup>* The Raspberry Pi has been loaded with the <a href="https://live.gnome.org/Orca" target="_blank">Orca</a> screenreading software</sup>
-		</article>
 	</section>
 </div>
 
