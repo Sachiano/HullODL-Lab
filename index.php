@@ -102,20 +102,6 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td>Apple iPhone 3G</td>
-							<td>iOS 4.2.1</td>
-							<td>Smartphone</td>
-							<td>320x480</td>
-							<td>Sal Bentley</td>
-						</tr>
-						<tr>
-							<td>BlackBerry Bold 9700</td>
-							<td>BB OS 5.0</td>
-							<td>Smartphone</td>
-							<td>480x360</td>
-							<td><a href="https://twitter.com/palaceofwisdom"> Callum MacInnes</a></td>
-						</tr>			
-						<tr>
 							<td>HTC Desire Z</td>
 							<td>Android 2.3.3</td>
 							<td>Smartphone</td>

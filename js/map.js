@@ -11,7 +11,7 @@ window.onload = function() {
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
   var markerIcon = 'img/map-icon.gif';
-
+google.maps.visualRefresh = true; 
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
