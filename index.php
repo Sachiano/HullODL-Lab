@@ -32,11 +32,12 @@
 
 	<header class="row">
 	
-		<div class="large-4 small-2 columns">
-			<h1><a href=""><span>Hull</span>ODL</a></h1>
+		<div class="large-5 small-2 columns">
+			<!--<h1><a href=""><span>Hull</span>ODL</a> <img class="hide-for-medium-down" src="img/small-device-vectors.png" alt="HullODL"/></h1>-->
+			<h1><img src="img/header-logo.png" /></h1>
 		</div>
 		
-		<nav class="large-8 small-12 columns" id="main">
+		<nav class="large-7 small-12 columns" id="main">
 			<a href="#about" accesskey="1">About</a> 
 			<a href="#device-library" accesskey="2">Our Devices</a>			
 			<a href="#visit" accesskey="3">Visit</a>
@@ -77,6 +78,9 @@
 			<p>
 				If you would like to come down and use the lab, just give us a tweet a few days beforehand
 				<a href="http://twitter.com/HullODL" alt="@HullODL" title="@HullODL" target="_blank">@HullODL</a> and we'll be happy to get everything set up for you!
+			</p>
+			<p>
+				Alternatively, email <a href="mailto:enquiries@hullodl.co.uk">enquiries@hullodl.co.uk</a> or text <a href="tel:01482900499">01482 900 499</a>!
 			</p>
 		</article>
 	</section>
@@ -162,10 +166,12 @@
 			<h3>Visit the Lab</h3>
 			<p>HullODL is currently located at:</p>
 			<address class="vcard">
-				<span class="building-name">Hull School of Art and Design</span>
-				<span class="street-address">Wilberforce Drive</span>
+				<span class="building-name">Platform Studios</span>
+				<span class="street-address">3<sup>rd</sup> Floor</span>
+				<span class="street-address">Wilberforce Court</span>
+				<span class="street-address">Alfred Gelder Street</span>								
 				<span class="locality">Hull</span>
-				<span class="postal-code">HU1 3DG</span>
+				<span class="postal-code">HU1 1UY</span>
 			</address>
 		</article>
 
@@ -182,7 +188,7 @@
 		</article>
 
 	</section>	
-<div id="map" />
+<div id="map"></div>
 <!--COMING SOON <div class="grey">
 	<section class="row" id="how-to-help">
 		<article class="large-12 columns">
@@ -245,10 +251,24 @@
 
 		<section class="row">
 			
-			<div class="large-6 columns">
-				HullODL <span class="fancy">is provided by</span> <a href="http://www.geniusbydesign.co.uk">Genius by Design</a>
-			</div>
-
+		<div class="large-8 columns large-centered">
+				<a href="http://www.geniusbydesign.co.uk/?ref=HullODL" target="_blank">
+					<img src="img/sponsors/genius.png" />
+				</a>
+	
+			
+			
+				<a href="http://www.platformexpos.com/platformstudios/?for=HullODL" target="_blank">
+					<img src="img/sponsors/platform-studios.png" />
+				</a>
+		
+			
+			
+				<a href="http://developer.nokia.com/?ref=hullodl.co.uk" target="_blank">
+					<img src="img/sponsors/nokia.png" />
+				</a>
+		</div>
+								
 		</section>
 
 	</footer>

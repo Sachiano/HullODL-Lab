@@ -1,6 +1,6 @@
 window.onload = function() {
 
- var myLatlng = new google.maps.LatLng(53.745851,-0.332193);
+ var myLatlng = new google.maps.LatLng(53.744441,-0.330684);
   var mapOptions = {
     zoom: 17,
     center: myLatlng,
@@ -11,11 +11,13 @@ window.onload = function() {
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
   var markerIcon = 'img/map-icon.gif';
-google.maps.visualRefresh = true; 
+
+  google.maps.visualRefresh = true; 
+  
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title:"HullODL is at: the Hull School of Art and Design",
+      title:"HullODL is at Platform Studios, on the 3rd floor of Wilberforce Court",
       icon: markerIcon
   });
 }
